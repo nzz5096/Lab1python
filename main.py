@@ -7,12 +7,10 @@ unit = input("Enter unit in F/f or C/c: ");
 
 if unit=="c" or unit=="C":
   celsius = float(temp);
-  print(celsius);
   fahrenheit = float(celsius * 1.8) + 32
   print(f"{celsius}° in Celsius is equivalent to {fahrenheit}° Fahrenheit.");
 elif unit=="f" or unit == "F":
   fahrenheit = float(temp);
-  print(fahrenheit);
   celsius = float((fahrenheit - 32) * 5/9)
   print(f"{fahrenheit}° in Fahrenheit is equivalent to {celsius}° Celsius");
 else:
