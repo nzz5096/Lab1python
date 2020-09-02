@@ -12,6 +12,6 @@ if unit=="c" or unit=="C":
 elif unit=="f" or unit == "F":
   fahrenheit = float(temp);
   celsius = float((fahrenheit - 32) * 5/9)
-  print(f"{fahrenheit}° in Fahrenheit is equivalent to {celsius}° Celsius");
+  print(f"{fahrenheit}° in Fahrenheit is equivalent to {celsius}° Celsius.");
 else:
   print("Invalid unit(" + unit + ").")
